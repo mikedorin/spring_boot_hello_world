@@ -2,7 +2,7 @@
 FROM eclipse-temurin:17-jdk
 
 # Copy the built jar file from your target directory
-COPY target/helloworld-0.0.1-SNAPSHOT.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar
 
 # Tell Docker how to start your app
 ENTRYPOINT ["java","-jar","/app.jar"]
